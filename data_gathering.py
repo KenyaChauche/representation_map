@@ -15,6 +15,9 @@
 # age
 # party
 # ** remove rows with state abbrevations PR (Puerto Rico), AS (American Samoa), GU (Guam)
+# race (if nothing else better comes up)
+# only specifies hispanic, african american, american indian, asian american
+# https://pressgallery.house.gov/member-data/demographics
 
 # Senate religious alignments
 # https://en.wikipedia.org/wiki/Religious_affiliation_in_the_United_States_Senate
@@ -22,21 +25,24 @@
 # House religious alignments
 # https://en.wikipedia.org/wiki/Religious_affiliation_in_the_United_States_House_of_Representatives
 
+
 # wikipedia API
 # education level
 # https://pypi.org/project/Wikipedia-API/
 
+
 # state demographics
-# population size, gender, race
-# https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-detail.html
+# population size, gender, race, age, educational attainment
+# https://www.census.gov/cps/data/cpstablecreator.html
+
 # religious affiliation percentages
-# https://www.pewforum.org/religious-landscape-study/
-# education level
-# https://data.census.gov/cedsci/table?q=educational%20attainment&t=Educational%20Attainment&g=0100000US.04000.001&y=2018&tid=ACSST1Y2018.S1501&moe=false&tp=true&hidePreview=true
+# https://www.pewforum.org/2015/05/12/americas-changing-religious-landscape/
+# download appendix for detailed tables, extract tables using tabula 
+# link to tabula download: https://tabula.technology/#:~:text=Upload%20a%20PDF%20file%20containing,data%20and%20display%20a%20preview.
+
 # party affiliation
 # if all else fails: https://www.pewforum.org/religious-landscape-study/compare/party-affiliation/by/state/
-# age distribution
-#
+
 
 # stretch: representative voting record
 # sponsor and cosponsoring bills
